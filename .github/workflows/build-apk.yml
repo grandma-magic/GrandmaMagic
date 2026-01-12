@@ -28,7 +28,7 @@ jobs:
       - name: Build APK
         run: cd app && ./gradlew assembleDebug
 
-        - name: List APK output folder
+      - name: List APK output folder
         run: ls -R app/build/outputs/apk/
         
       - name: Upload APK
